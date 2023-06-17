@@ -1,0 +1,33 @@
+@import "./reset.css";
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* General styles */
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* Header */
+.header {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__link {
+}
+
+/* Main */
+.main {
+    flex: 1;
+}
+/* Footer */
+.footer {
+height: 80px;
+background-color: #1f2937;
+}
