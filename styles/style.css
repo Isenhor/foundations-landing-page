@@ -1,6 +1,9 @@
 @import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body {
+    font-family: 'Roboto', sans-serif;
+    color: #e5e7eb;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,22 +15,83 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+a {
+    color: inherit;
+}
+
 /* Header */
 .header {
+    background-color: #1f2937;
+
+
 }
+
 .menu {
+    padding: 20px 0;
+    margin-bottom: 40px;
 }
+
 .menu__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+
+.logo {
+    margin-right: auto;
+}
+
 .menu__link {
+    
 }
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.header__content {
+    max-width: 400px;
+}
+
+.content__title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    
+}
+
+.content__text {
+    font-style: 18px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #3882f6;
+    border-radius: 10px;
+
+}
+
+.header__img {
+    width: 520px;
+    height: 240px;
+    background-color: #888;
+}
+
 
 /* Main */
 .main {
     flex: 1;
 }
+
 /* Footer */
 .footer {
-height: 80px;
-background-color: #1f2937;
+    height: 80px;
+    background-color: #1f2937;
 }
